@@ -1,5 +1,6 @@
 'use strict'
 const varint = require('varint')
+var Buffer = require('buffer/').Buffer;
 
 module.exports = {
   numberToBuffer,
